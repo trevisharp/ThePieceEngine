@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace ThePieceEngine
 {
+    using Model;
     public class FrmMain : Form
     {
         public FrmMain()
         {
-            
+            Natural n = 16;
+            Natural m = 1024ul * 1024ul * 1024ul * 1024ul * 1024ul * 1024ul;
+            n = n * m;
+            Text = n.ToString();
+            WindowState = FormWindowState.Maximized;
         }
 
     }
