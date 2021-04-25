@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace ThePieceEngine
 {
-    public partial class Form1 : Form
+    public class FrmMain : Form
     {
-        public Form1()
+        public FrmMain()
         {
-            InitializeComponent();
+            
         }
 
     }
