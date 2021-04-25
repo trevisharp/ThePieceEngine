@@ -1,0 +1,8 @@
+
+*.json
+*.props
+*.cache
+*.editorconfig
+obj/Debug/net5.0-windows/ThePieceEngine.AssemblyInfo.cs
+obj/Debug/net5.0-windows/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
+*.targets
